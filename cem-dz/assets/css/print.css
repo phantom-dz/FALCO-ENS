@@ -1,0 +1,38 @@
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .cem-header,
+  .cem-footer,
+  .cem-button,
+  .cem-banner,
+  .cem-tabs,
+  .cem-actions,
+  nav,
+  button {
+    display: none !important;
+  }
+
+  .cem-container {
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  .cem-print-header {
+    display: block;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+  }
+
+  .cem-page-break {
+    page-break-before: always;
+  }
+}

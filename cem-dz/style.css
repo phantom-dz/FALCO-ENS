@@ -1,0 +1,33 @@
+/*
+Theme Name: CEM DZ
+Theme URI: https://example.com/cem-dz
+Author: OpenAI
+Author URI: https://openai.com
+Description: Atlas-style educational WordPress theme for CEM DZ.
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 8.0
+Text Domain: cem-dz
+*/
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f6f7fb;
+  color: #1c1f2b;
+  direction: rtl;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.screen-reader-text {
+  position: absolute;
+  left: -9999px;
+}
